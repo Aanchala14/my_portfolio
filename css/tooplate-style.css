@@ -40,7 +40,7 @@ a {
   transition: all 0.4s ease;
 }
 a:hover {
-  color: #ffc200 !important;
+  color: #51158C !important;
 }
 
 .navbar-brand .uil {
@@ -92,15 +92,15 @@ b, strong {
   transition: all 0.4s ease;
 }
 .custom-btn:hover {
-  color: #ffc200;
+  color: #51158C;
 }
 .custom-btn.custom-btn-bg {
-  background: #474559;
+  background: #51158C;
   color: #ffffff;
 }
 .custom-btn.custom-btn-bg:hover {
-  background: #ffc200;
-  color: #ffffff !important;
+  background: #BDC1F2;
+  color: #51158C !important;
 }
 
 .animated {
@@ -116,7 +116,7 @@ b, strong {
 }
 
 .animated-item {
-  color: #ffc200;
+  color: #51158C;
 }
 
 .animated-item {
@@ -214,7 +214,7 @@ b, strong {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #51158C;
   font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link:focus span,
@@ -296,7 +296,7 @@ b, strong {
   color: rgba(255, 255, 255, 0.8);
 }
 .dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #51158C;
 }
 .dark-mode .navbar[class*="headroom--not-top"] {
   background: #0c0c0d;
@@ -327,7 +327,7 @@ b, strong {
 }
 .timeline-wrapper:before {
   content: "";
-  background: #474559;
+  background: #51158C;
   width: 3px;
   height: 100%;
   position: absolute;
@@ -335,7 +335,7 @@ b, strong {
 }
 
 .timeline-yr {
-  background: #474559;
+  background: #51158C;
   border-radius: 100%;
   position: absolute;
   width: 75px;
@@ -358,7 +358,7 @@ b, strong {
   margin-left: 6em;
 }
 .timeline-info small {
-  color: #474559;
+  color: #51158C;
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
@@ -398,7 +398,7 @@ b, strong {
   font-size: inherit;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
-  color: #ffc200;
+  color: #51158C;
 }
 .owl-theme .owl-dots .owl-dot {
   outline: none;
@@ -430,10 +430,10 @@ b, strong {
   height: 48px;
 }
 .contact-form .form-control:hover, .contact-form .form-control:focus {
-  border-color: #ffc200;
+  border-color: #51158C;
 }
 .contact-form .submit-btn {
-  background: #ffc200;
+  background: #51158C;
   border-radius: 50px;
   color: #ffffff;
   font-weight: bold;
@@ -442,11 +442,11 @@ b, strong {
   transition: all 0.4s ease;
 }
 .contact-form .submit-btn:hover {
-  background: #474559;
+  background: #3b0f66;
 }
 
 .contact-info {
-  background: #474559;
+  background: #51158C;
   border-radius: 0 0 3px 3px;
   position: relative;
   bottom: 8px;
@@ -462,12 +462,12 @@ b, strong {
   margin: 5px 0;
 }
 .social-links .uil:hover {
-  color: #ffc200;
+  color: #51158C;
 }
 
 /* Skills Section */
 .skills {
-  background: #f9f9f9;
+  background: #BDC1F2;
 }
 .dark-mode .skills {
   background: #141414;
@@ -490,7 +490,7 @@ b, strong {
 }
 .skill-icon {
   font-size: 40px;
-  color: #ffc200;
+  color: #51158C;
   margin-bottom: 15px;
 }
 .skill-card h3 {
@@ -504,7 +504,7 @@ b, strong {
 
 /* Interests Section */
 .interests {
-  background: #f9f9f9;
+  background: #BDC1F2;
 }
 .dark-mode .interests {
   background: #141414;
