@@ -709,6 +709,7 @@ p { color: var(--muted); }
 .game-section .eyebrow { color: #cdb5ec; }
 .game-intro h2 { color: #fff; font-size: clamp(2.5rem,4.5vw,4.2rem); letter-spacing: -.05em; }
 .game-intro > p { color: #cfc6d7; }
+.doodle-text-link { display: inline-flex; align-items: center; gap: 7px; color: #d9c4f2; font-size: 13px; font-weight: 700; }.doodle-text-link:hover { color: #fff !important; }
 .game-fact { margin: 28px 0; padding: 20px 0; border-top: 1px solid rgba(255,255,255,.15); border-bottom: 1px solid rgba(255,255,255,.15); }
 .game-fact span,.game-fact strong { display: block; }.game-fact span { color: #cdb5ec; font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }.game-fact strong { margin-top: 7px; color: #fff; font-size: 19px; }
 .game-intro blockquote { margin: 0; color: #bbaec6; font-size: 14px; font-style: italic; line-height: 1.65; }
