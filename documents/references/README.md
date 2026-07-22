@@ -1,19 +1,8 @@
 # Reference letters
 
-Add the approved PDF letters to this folder using these names:
+Reference handling:
 
-- `cambridge-reference.pdf`
-- `uzh-reference.pdf`
-- `vjti-reference.pdf`
+- Cambridge and UZH use the approved Google Drive links supplied for the portfolio.
+- `vjti-reference.pdf` is stored locally and linked from the portfolio.
 
-Before publishing a letter, confirm that the referee has agreed to public display and remove private contact details if needed. The portfolio currently shows a safe “Letter being added” state, so there are no broken document links.
-
-To activate a letter, replace the corresponding `document-status` span in `index.html` with:
-
-```html
-<a class="document-status" href="documents/references/cambridge-reference.pdf" target="_blank" rel="noopener">
-  <i class="uil uil-file-download-alt"></i> Read reference letter
-</a>
-```
-
-Use the matching filename for UZH and VJTI.
+Before publishing a letter, confirm that the referee has agreed to public display and remove private contact details if needed. All three reference cards are active.
