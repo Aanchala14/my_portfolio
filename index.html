@@ -21,6 +21,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item"><a href="#about" class="nav-link"><span data-hover="About">About</span></a></li>
+          <li class="nav-item"><a href="#game" class="nav-link"><span data-hover="Game">Game</span></a></li>
           <li class="nav-item"><a href="#projects" class="nav-link"><span data-hover="Projects">Projects</span></a></li>
           <li class="nav-item"><a href="#publication" class="nav-link"><span data-hover="Publication">Publication</span></a></li>
           <li class="nav-item"><a href="#experience" class="nav-link"><span data-hover="Experience">Experience</span></a></li>
@@ -65,6 +66,37 @@
           <div><strong>1</strong><span>peer-reviewed publication</span></div>
           <div><strong>3</strong><span>research institutions</span></div>
           <div><strong>120</strong><span>cosmology configurations analysed</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block game-section" id="game">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 game-intro">
+            <p class="eyebrow">A playful intermission</p>
+            <h2>Meet Violet Pac-Man.</h2>
+            <p>I love the Google Doodle Pac-Man, so this little maze runner gets a place in my portfolio too.</p>
+            <div class="game-fact"><span>Fun fact</span><strong>I have reached level 11. Next target: level 256.</strong></div>
+            <blockquote>“I want to make a violet pacman, if you can guess why (the colour theme of this site), which just have fun running around in the game, I am kidding, haha.”</blockquote>
+          </div>
+          <div class="col-lg-7">
+            <div class="game-shell">
+              <div class="game-bar">
+                <span>Violet maze</span>
+                <div class="game-stats" aria-live="polite"><span>Score <strong id="maze-score">0</strong></span><span>Level <strong id="maze-level">1</strong></span></div>
+              </div>
+              <canvas id="violet-maze" width="560" height="400" aria-label="Playable violet Pac-Man-style maze game. Use arrow keys, WASD, or the touch controls.">Your browser does not support this game canvas.</canvas>
+              <div class="game-actions">
+                <button id="maze-toggle" type="button" class="game-button">Start game</button>
+                <span>Use arrow keys or WASD</span>
+              </div>
+              <div class="maze-controls" aria-label="Touch game controls">
+                <button type="button" data-direction="up" aria-label="Move up">↑</button>
+                <div><button type="button" data-direction="left" aria-label="Move left">←</button><button type="button" data-direction="down" aria-label="Move down">↓</button><button type="button" data-direction="right" aria-label="Move right">→</button></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
