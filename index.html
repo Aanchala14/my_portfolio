@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Aanchala Bhongade — data scientist and researcher working across Transformer length generalisation, climate analytics, cloud systems and computational cosmology.">
+  <meta name="description" content="Aanchala Bhongade — data scientist and researcher working on Transformer length generalisation, forecasting under distribution shift, climate analytics, cloud systems and computational cosmology.">
   <meta name="author" content="Aanchala Bhongade">
   <meta name="theme-color" content="#51158c">
   <title>Aanchala Bhongade | Data Science & Research</title>
@@ -41,8 +41,8 @@
           <div class="col-lg-7 col-12">
             <div class="about-text">
               <p class="eyebrow">Machine learning · Scientific computing · Cloud systems</p>
-              <h1>I turn complex data into <span class="accent-text">evidence that matters.</span></h1>
-              <p class="hero-copy">I’m Aanchala Ravindra Bhongade, an MSc Data Science candidate at the <strong>University of Bristol</strong>. I design reproducible machine-learning experiments, process large scientific datasets, and build scalable cloud systems. My current research investigates length generalisation in Transformer sequence models.</p>
+              <h1>I study the systems that <span class="accent-text">don’t behave as expected.</span></h1>
+              <p class="hero-copy">I’m Aanchala Ravindra Bhongade, a data scientist and researcher, and an MSc Data Science graduate of the <strong>University of Bristol</strong>. Most of my work lives where a model meets conditions it was never trained for: Transformers that collapse beyond their training length, forecasts that drift under distribution shift, and climate projections with real human consequences. I care about experiments that others can reproduce, uncertainty that is stated plainly, and findings that still hold when someone checks them.</p>
               <div class="affiliation-row" aria-label="Research affiliations">
                 <span>University of Bristol</span><span>University of Cambridge</span><span>University of Zurich</span>
               </div>
@@ -65,7 +65,7 @@
         <div class="impact-strip">
           <div><strong>1</strong><span>peer-reviewed publication</span></div>
           <div><strong>3</strong><span>research institutions</span></div>
-          <div><strong>120</strong><span>cosmology configurations analysed</span></div>
+          <div><strong>45</strong><span>controlled Transformer experiments</span></div>
         </div>
       </div>
     </section>
@@ -112,15 +112,16 @@
           <div class="project-number">01 / Featured</div>
           <div class="row">
             <div class="col-lg-10 project-copy">
-              <p class="project-kicker">Machine learning research · University of Bristol</p>
+              <p class="project-kicker">MSc dissertation · University of Bristol</p>
               <h3>Length generalisation in Transformer sequence models</h3>
-              <p>Building a configuration-driven PyTorch pipeline on AWS to train Transformer baselines on controlled algorithmic tasks and evaluate extrapolation at sequence lengths up to 1,024.</p>
+              <p>A configuration-driven PyTorch pipeline on AWS GPU infrastructure running 45 Transformer baselines across 3 algorithmic tasks, 5 positional encodings and 3 random seeds, evaluated at sequence lengths up to 1,024.</p>
               <ul class="project-points">
-                <li>Redesigned a trivial copy benchmark as delayed copy to isolate long-range memory</li>
-                <li>Observed exact-match accuracy fall from 100% at the trained length to 0.8% at the first unseen length in preliminary addition experiments</li>
-                <li>Comparing absolute, sinusoidal, NoPE, RoPE and ALiBi representations across tasks and random seeds</li>
+                <li>Built an evidence-based failure taxonomy separating training underfitting, seed instability, immediate extrapolation collapse and position-dependent error patterns</li>
+                <li>Used a multi-seed eligibility framework to identify 5 of 15 configurations reaching 92–100% mean exact-match accuracy at the training length — every one of them fell to 0% at the first unseen length</li>
+                <li>Diagnosed task-specific failures with position-wise error profiles, attention statistics, carry-condition and dependency-distance analysis rather than aggregate accuracy alone</li>
+                <li>Tested mixed-length training, curriculum learning and randomised padding, separating genuine underfitting from interventions that preserved training performance without improving unseen-length exact match</li>
               </ul>
-              <div class="tag-row"><span>PyTorch</span><span>Transformers</span><span>AWS</span><span>Experimental design</span></div>
+              <div class="tag-row"><span>PyTorch</span><span>Transformers</span><span>AWS GPU</span><span>Positional encodings</span><span>Experimental design</span></div>
             </div>
           </div>
         </article>
@@ -130,7 +131,7 @@
               <div class="project-card-body">
                 <p class="project-kicker">Cloud engineering · AWS</p>
                 <h3>Elastic event-driven data pipeline</h3>
-                <p>Deployed an event-driven processing architecture using S3, SQS, Ubuntu EC2 workers and DynamoDB, with least-privilege IAM and queue-depth Auto Scaling through CloudWatch.</p>
+                <p>Deployed an event-driven processing architecture using S3, SQS, Ubuntu EC2 workers and DynamoDB, with least-privilege IAM and queue-depth Auto Scaling through CloudWatch. A 120-file burst test scaled the fleet from one worker to two, processed the full workload without data loss and returned to minimum capacity once the queue drained.</p>
                 <div class="tag-row"><span>EC2</span><span>S3</span><span>SQS</span><span>DynamoDB</span></div>
               </div>
             </article>
@@ -140,7 +141,7 @@
               <div class="project-card-body">
                 <p class="project-kicker">Astronomical machine learning · Ongoing</p>
                 <h3>Robust anomaly detection under instrument shift</h3>
-                <p>Developing a reproducible Kepler and TESS light-curve pipeline with robust preprocessing, Isolation Forest scoring and cross-instrument evaluation.</p>
+                <p>Developing a reproducible Kepler and TESS light-curve pipeline — quality-flag filtering, missing-data handling, detrending and normalisation — with Isolation Forest anomaly scoring and cross-quarter, cross-instrument evaluation that separates rare temporal behaviour from detector-specific distribution shift.</p>
                 <div class="tag-row"><span>Lightkurve</span><span>Astropy</span><span>scikit-learn</span><span>Time series</span></div>
               </div>
             </article>
@@ -150,7 +151,7 @@
               <div class="project-card-body">
                 <p class="project-kicker">Uncertainty research · Research proposal</p>
                 <h3>Robust prediction intervals under distribution shift</h3>
-                <p>Designed a controlled evaluation of four probabilistic forecasters with native and conformal calibration under four temporal shift types and three severity levels.</p>
+                <p>Designed a controlled evaluation of four probabilistic forecasters with native and conformal calibration across four temporal shift types and three severity levels, scored on coverage, interval width, CRPS and Winkler score.</p>
                 <div class="tag-row"><span>Conformal calibration</span><span>CRPS</span><span>Winkler score</span><span>Distribution shift</span></div>
                 <a class="project-link" href="https://github.com/Aanchala14/How_Robust_Are_Prediction_Intervals" target="_blank" rel="noopener"><i class="uil uil-code"></i> View on GitHub</a>
               </div>
@@ -161,7 +162,7 @@
               <div class="project-card-body">
                 <p class="project-kicker">Computational cosmology · University of Zurich</p>
                 <h3>Relic-Kappa weak-lensing analysis</h3>
-                <p>Developed Astropy, Healpy/Anafast and NumPy workflows to compute angular power spectra and compare Newtonian and relativistic outputs across simulation runs.</p>
+                <p>Developed Astropy, Healpy/Anafast and NumPy workflows across 120 configuration–redshift combinations, computing angular power spectra and comparing Newtonian and relativistic outputs with binned means, standard deviations and error bars.</p>
                 <div class="tag-row"><span>FITS</span><span>HEALPix</span><span>Healpy</span><span>HPC/SLURM</span></div>
                 <a class="project-link" href="https://gitlab.uzh.ch/julian.adamek/relic-kappa" target="_blank" rel="noopener"><i class="uil uil-code"></i> View on GitLab</a>
               </div>
@@ -188,9 +189,9 @@
       <div class="container">
         <div class="section-heading compact"><p class="eyebrow">Toolkit</p><h2>How I approach the work.</h2></div>
         <div class="row">
-          <div class="col-lg-4 mb-4"><div class="expertise-card"><span class="card-index">01</span><h3>Build & deploy</h3><p>Python, C++, R, Git, Linux, Jupyter, LaTeX; AWS EC2, S3, SQS, DynamoDB, IAM, CloudWatch and Auto Scaling</p></div></div>
-          <div class="col-lg-4 mb-4"><div class="expertise-card"><span class="card-index">02</span><h3>Model & evaluate</h3><p>PyTorch, TensorFlow, scikit-learn, Transformers, neural networks, regression, clustering, anomaly detection and uncertainty quantification</p></div></div>
-          <div class="col-lg-4 mb-4"><div class="expertise-card"><span class="card-index">03</span><h3>Compute & research</h3><p>NumPy, SciPy, pandas, xarray, Astropy, Lightkurve, Healpy, FITS and HEALPix; HPC/SLURM, ablations and error analysis</p></div></div>
+          <div class="col-lg-4 mb-4"><div class="expertise-card"><span class="card-index">01</span><h3>Build & deploy</h3><p>Python, C++, R, SQL, Git, Linux, Jupyter, LaTeX; AWS EC2, S3, SQS, DynamoDB, IAM, CloudWatch, Auto Scaling and the AWS CLI</p></div></div>
+          <div class="col-lg-4 mb-4"><div class="expertise-card"><span class="card-index">02</span><h3>Model & evaluate</h3><p>PyTorch, TensorFlow, scikit-learn, Transformers, neural networks, regression, clustering, anomaly detection, time-series analysis, distribution shift and uncertainty quantification</p></div></div>
+          <div class="col-lg-4 mb-4"><div class="expertise-card"><span class="card-index">03</span><h3>Compute & research</h3><p>NumPy, SciPy, pandas, Matplotlib, xarray, netCDF4, Astropy, Lightkurve, Healpy/Anafast, FITS and HEALPix; HPC/SLURM workflows, ablations and error analysis</p></div></div>
         </div>
       </div>
     </section>
@@ -202,14 +203,15 @@
           <div class="col-lg-7">
             <h3 class="column-title">Experience</h3>
             <div class="timeline">
-              <div class="timeline-wrapper"><div class="timeline-yr"><span>Now</span></div><div class="timeline-info"><h3><span>MSc Research Dissertation</span><small>University of Bristol · Jun 2025–present</small></h3><p>Investigating length generalisation in Transformer sequence models with controlled PyTorch experiments, AWS compute and failure diagnostics.</p></div></div>
+              <div class="timeline-wrapper"><div class="timeline-yr"><span>2026</span></div><div class="timeline-info"><h3><span>MSc Research Dissertation</span><small>University of Bristol · Jun 2026–Aug 2026</small></h3><p>Investigated length generalisation in Transformer sequence models through 45 controlled PyTorch experiments on AWS GPU infrastructure, producing a failure taxonomy and diagnostic analyses beyond aggregate accuracy.</p></div></div>
               <div class="timeline-wrapper"><div class="timeline-yr"><span>2024</span></div><div class="timeline-info"><h3><span>Visiting Researcher</span><small>University of Cambridge · Sep 2024–Mar 2025</small></h3><p>Integrated CMIP6 climate and demographic projections across five SSP scenarios to analyse heat exposure and cooling-energy demand in India through 2100.</p></div></div>
-              <div class="timeline-wrapper"><div class="timeline-yr"><span>2024</span></div><div class="timeline-info"><h3><span>Scientific Computing Researcher</span><small>University of Zurich · Relic-Kappa · Jul 2024–Jan 2025</small></h3><p>Processed FITS/HEALPix weak-lensing maps across 120 configuration-redshift combinations on the UZH Science Cluster.</p></div></div>
+              <div class="timeline-wrapper"><div class="timeline-yr"><span>2024</span></div><div class="timeline-info"><h3><span>Scientific Computing Researcher</span><small>University of Zurich · Relic-Kappa · Jul 2024–Jan 2025</small></h3><p>Processed FITS/HEALPix weak-lensing maps across 120 configuration–redshift combinations on the UZH Science Cluster, comparing Newtonian and relativistic outputs.</p></div></div>
+              <div class="timeline-wrapper"><div class="timeline-yr"><span>2023</span></div><div class="timeline-info"><h3><span>Research Intern</span><small>Veermata Jijabai Technological Institute · Oct 2023–May 2024</small></h3><p>Identified the optimal EV charger using Multiple Criteria Decision Making, structuring a multi-variable evaluation in Super Decision Software alongside expert consultation, plant visits and a literature review.</p></div></div>
             </div>
           </div>
           <div class="col-lg-5">
             <h3 class="column-title">Education</h3>
-            <div class="education-card"><span>Sep 2025–expected Sep 2026</span><h3>MSc Data Science</h3><p>University of Bristol</p><small>Statistical computing, programming and algorithms, AI and text analytics, large-scale data engineering, data science methods and visual analytics</small></div>
+            <div class="education-card"><span>Sep 2025–Sep 2026</span><h3>MSc Data Science</h3><p>University of Bristol</p><small>Statistical computing, programming and algorithms, AI and text analytics, large-scale data engineering, data science methods and visual analytics</small></div>
             <div class="education-card"><span>Dec 2021–Jun 2025</span><h3>BTech Production Engineering</h3><p>Veermata Jijabai Technological Institute</p><small>First Class · CGPA 7.33/10 · Probability and statistics, operations research, business analytics, C++ and supply chain management</small></div>
           </div>
         </div>
