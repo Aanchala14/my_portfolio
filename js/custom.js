@@ -2,13 +2,6 @@
 
   "use strict";
 
-    // COLOR MODE
-    $('.color-mode').click(function(){
-        $('.color-mode-icon').toggleClass('active')
-        $('body').toggleClass('dark-mode')
-        $(this).attr('aria-pressed', $('body').hasClass('dark-mode'))
-    })
-
     // HEADER
     $(".navbar").headroom();
 
